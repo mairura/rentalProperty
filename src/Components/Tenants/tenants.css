@@ -1,3 +1,37 @@
 .tenants_container{
-    
+    padding: 40px;
+}
+.about h3{
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 100px;
+    font-size: 28px;
+}
+.underline{
+    border-bottom: 2px solid rgb(255, 72, 0);
+}
+.sample{
+    display: flex;
+    padding-top: 50px;
+}
+.sample_pic{
+    margin-left: 40px;
+}
+.house_att{
+    display: grid;
+    grid-template-columns: 1fr 1fr 60px ;
+    padding: 50px ;
+}
+.house_prop{
+    padding-left: 100px;
+}
+.house_prop img{
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.house_prop p{
+    font-weight: 500;
 }

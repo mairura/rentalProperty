@@ -7,12 +7,13 @@ import LayerIcon from "../../Assets/Vector_landlord.png";
 import EnvIcon from "../../Assets/Vector_env.png";
 import SafeIcon from "../../Assets/Vector_safe.png";
 import PayIcon from "../../Assets/Vector_pay.png";
+import Decor from "./Decor";
 
 const Tenants = () => {
   return (
     <div className="tenants_container">
       <div className="about">
-        <h3>Minimum Living Cost Takes Care of Everything</h3>
+        <h3><span className="underline">Minimum Living Cost </span>Takes Care of Everything</h3>
         <div className="sample">
           <div className="sample_pic">
             <img src={House} alt="sample house" />
@@ -28,7 +29,10 @@ const Tenants = () => {
             </div>
             <div className="house_prop">
               <img src={LayerIcon} alt="layer" />
-              <p>Lets Somebody Else Take Care Of Landlord</p>
+              <p>
+                Let's Somebody Else
+                <br /> Take Care Of Landlord
+              </p>
             </div>
             <div className="house_prop">
               <img src={EnvIcon} alt="env" />
@@ -47,10 +51,7 @@ const Tenants = () => {
           </div>
         </div>
       </div>
-      <div className="properties_container">
-        <h3>List of Properties</h3>
-        <div className="properties"></div>
-      </div>
+      <Decor />
     </div>
   );
 };
