@@ -8,26 +8,33 @@
 }
 .nav_container{
   background-color: rgb(36, 36, 107);
-  min-height: 60px;
-  max-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  max-height: 70px;
+  min-width: 70px;
 }
 .logo{
-  margin-right: 100px;
+  padding: 10px;
+  margin-left: 20px;
 }
 .logo img{
   width: 100px;
-  text-align: left;
 }
 nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
-  text-align: center;
 }
 nav li{
   padding: 20px;
   cursor: pointer;
   margin-right: 30px;
+}
+.links{
+  color: #fff;
+  text-decoration: none;
+}
+.links:hover{
+  color: orange;
 }

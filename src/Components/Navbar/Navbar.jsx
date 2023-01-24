@@ -6,36 +6,27 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <nav className="nav_container">
+        <p className="logo">
+          <img src={logo} alt="logo" />
+        </p>
         <ul>
-          <p className="logo">
-            <img src={logo} alt="logo" />
-          </p>
           <li>
-            <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
+            <Link to="/" className="links">
               Home
             </Link>
           </li>
           <li>
-            <Link
-              to="/tenants"
-              style={{ textDecoration: "none", color: "#fff" }}
-            >
+            <Link to="/tenants" className="links">
               Tenants
             </Link>
           </li>
           <li>
-            <Link
-              to="/landlord"
-              style={{ textDecoration: "none", color: "#fff" }}
-            >
+            <Link to="/landlord" className="links">
               Landlords
             </Link>
           </li>
           <li>
-            <Link
-              to="/contactus"
-              style={{ textDecoration: "none", color: "#fff" }}
-            >
+            <Link to="/contactus" className="links">
               Contact Us
             </Link>
           </li>
