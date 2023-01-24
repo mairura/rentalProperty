@@ -6,35 +6,3 @@
 .App{
   font-family: 'Poppins', sans-serif;
 }
-.nav_container{
-  background-color: rgb(36, 36, 107);
-  display: flex;
-  justify-content: space-between;
-  max-height: 70px;
-  min-width: 70px;
-}
-.logo{
-  padding: 10px;
-  margin-left: 20px;
-}
-.logo img{
-  width: 100px;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-nav li{
-  padding: 20px;
-  cursor: pointer;
-  margin-right: 30px;
-}
-.links{
-  color: #fff;
-  text-decoration: none;
-}
-.links:hover{
-  color: orange;
-}

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./landlord.css";
 
 const Landlord = () => {
-  return (
-    <div>Landlord Page</div>
-  )
-}
+  return <div>Landlord Page</div>;
+};
 
-export default Landlord
+export default Landlord;

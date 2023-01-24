@@ -1,0 +1,46 @@
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    max-height: 70px;
+    min-width: 70px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+  }
+  .logo img{
+    width: 100px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  nav li{
+    padding-left: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  .links{
+    color: #fff;
+    text-decoration: none;
+  }
+  .links:hover{
+    color: orange;
+  }
+  .home_container{
+    background-image: url("../../Assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 50px;
+}
+.home_desc{
+    color: #fff;
+    padding: 50px;
+}
+.home_desc h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
