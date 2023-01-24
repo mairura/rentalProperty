@@ -11,13 +11,23 @@
   min-height: 60px;
   max-height: 80px;
 }
+.logo{
+  margin-right: 100px;
+}
+.logo img{
+  width: 100px;
+  text-align: left;
+}
 nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  margin-left: 150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 nav li{
   padding: 20px;
   cursor: pointer;
+  margin-right: 30px;
 }
