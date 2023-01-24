@@ -1,0 +1,19 @@
+.contactus_page {
+  margin: 60px;
+}
+.contactus_page h4 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.contactus_form {
+  box-shadow: 20px 20px 50px grey;
+  margin: 30px;
+}
+.contactus_form h3 {
+  color: rgb(255, 17, 0);
+  text-align: center;
+  text-transform: capitalize;
+  padding: 50px;
+}

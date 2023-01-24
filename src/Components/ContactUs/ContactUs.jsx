@@ -4,10 +4,10 @@ import "./contactus.css";
 const ContactUs = () => {
   return (
     <div className="contactus_page">
-      <h3>
+      <h4>
         Your property with us and be Confident that Your Room will be Filled
         Out!
-      </h3>
+      </h4>
       <div className="contactus_form">
         <h3>Add A New Property</h3>
         <form>
