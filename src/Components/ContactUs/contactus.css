@@ -17,3 +17,10 @@
   text-transform: capitalize;
   padding: 50px;
 }
+.contactus_container {
+  margin: 40px;
+}
+.name {
+  display: flex;
+  justify-content: space-around;
+}
