@@ -24,3 +24,15 @@
   display: flex;
   justify-content: space-around;
 }
+.property_btn {
+  color: #fff;
+  background-color: #f4511e;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

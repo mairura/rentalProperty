@@ -8,15 +8,17 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tenants" element={<Tenants />} />
-        <Route path="/landlord" element={<Landlord />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </div>
+    <>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tenants" element={<Tenants />} />
+          <Route path="/landlord" element={<Landlord />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 
