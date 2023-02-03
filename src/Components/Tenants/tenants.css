@@ -1,37 +1,53 @@
-.tenants_container{
-    padding: 40px;
+.tenants_container {
+  margin: 70px;
+  font-family: "Poppins", sans-serif;
 }
-.about h3{
-    letter-spacing: 1px;
-    font-weight: bold;
-    padding-left: 100px;
-    font-size: 28px;
+.about {
+  padding: 30px;
 }
-.underline{
-    border-bottom: 2px solid rgb(255, 72, 0);
+.about h3 {
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-left: 50px;
+  font-size: 28px;
 }
-.sample{
-    display: flex;
-    padding-top: 50px;
+.underline {
+  border-bottom: 3px solid rgb(255, 72, 0);
+  padding-bottom: 2px;
 }
-.sample_pic{
-    margin-left: 40px;
+.sample {
+  display: flex;
+  padding-top: 20px;
 }
-.house_att{
-    display: grid;
-    grid-template-columns: 1fr 1fr 60px ;
-    padding: 50px ;
+.sample_pic {
+  padding-left: 10px;
 }
-.house_prop{
-    padding-left: 100px;
+.house_att {
+  display: grid;
+  grid-template-columns: 1fr 1fr 60px;
+  padding-top: 80px;
 }
-.house_prop img{
-    box-shadow: 5px 5px 15px grey;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-    cursor: pointer;
+.house_prop {
+  padding-left: 80px;
 }
-.house_prop p{
-    font-weight: 500;
+.house_prop img {
+  box-shadow: 5px 5px 15px grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.house_prop h4 {
+  display: block;
+}
+.properties_container {
+  margin: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.property_head h3 {
+  font-size: 26px;
 }

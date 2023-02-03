@@ -13,7 +13,10 @@ const Tenants = () => {
   return (
     <div className="tenants_container">
       <div className="about">
-        <h3><span className="underline">Minimum Living Cost </span>Takes Care of Everything</h3>
+        <h3>
+          <span className="underline">Minimum Living Cost </span>Takes Care of
+          Everything
+        </h3>
         <div className="sample">
           <div className="sample_pic">
             <img src={House} alt="sample house" />
@@ -21,32 +24,27 @@ const Tenants = () => {
           <div className="house_att">
             <div className="house_prop">
               <img src={Vector} alt="coin" />
-              <p>Pay As Little As Possible</p>
+              <h4>Pay As Little As Possible</h4>
             </div>
             <div className="house_prop">
               <img src={HouseIcon} alt="house" />
-              <p>Enjoy Wisdom Of Community</p>
+              <h4>Enjoy Wisdom Of Community</h4>
             </div>
             <div className="house_prop">
               <img src={LayerIcon} alt="layer" />
-              <p>
-                Let's Somebody Else
-                <br /> Take Care Of Landlord
-              </p>
+              <h4>Let's Somebody Else Take Care Of Landlord</h4>
             </div>
             <div className="house_prop">
               <img src={EnvIcon} alt="env" />
-              <p>Enjoy Peaceful Environment</p>
+              <h4>Enjoy Peaceful Environment</h4>
             </div>
             <div className="house_prop">
               <img src={SafeIcon} alt="sec" />
-              <p>
-                Stay Safe! <br /> Save Money
-              </p>
+              <h4>Stay Safe! Save Money</h4>
             </div>
             <div className="house_prop">
               <img src={PayIcon} alt="sec" />
-              <p>Pay For What You Use!</p>
+              <h4>Pay For What You Use!</h4>
             </div>
           </div>
         </div>

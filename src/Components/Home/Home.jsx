@@ -3,7 +3,7 @@ import "./home.css";
 import map from "../../Assets/map.png";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
   return (
@@ -20,18 +20,23 @@ const Home = () => {
               </Link>
             </li>
             <li>
-              <Link to="/tenants" className="links">
+              <Link to="tenants" className="links">
                 Tenants
               </Link>
             </li>
             <li>
-              <Link to="/landlord" className="links">
+              <Link to="landlord" className="links">
                 Landlords
               </Link>
             </li>
             <li>
-              <Link to="/contactus" className="links">
+              <Link to="/contact" className="links">
                 Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/decor" className="links">
+                Decor
               </Link>
             </li>
           </ul>

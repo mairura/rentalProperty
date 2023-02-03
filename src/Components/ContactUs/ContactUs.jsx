@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import "./contactus.css";
 
-const ContactUs = () => {
+const Contact = () => {
   return (
     <>
       <div className="contactus_page">
@@ -78,11 +78,9 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Footer />
-      </div>
+      <div>{/* <Footer /> */}</div>
     </>
   );
 };
 
-export default ContactUs;
+export default Contact;
